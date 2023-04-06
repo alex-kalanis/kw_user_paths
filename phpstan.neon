@@ -1,0 +1,17 @@
+parameters:
+	level: 9
+	paths:
+		- 'php-src'
+#	scanFiles:
+#		- 'php-tests/CommonTestClass.php'
+	excludePaths:
+		- 'php-tests/_autoload.php'
+		- 'php-tests/_bootstrap.php'
+#		- 'php-tests/CommonTestClass.php'
+		- 'php-tests/data/*'
+	bootstrapFiles:
+		- 'php-tests/_bootstrap.php'
+#	checkGenericClassInNonGenericObjectType: false
+#	ignoreErrors:
+#		# known one
+#		- '#should return array\<int\, string\> but returns array\<int\, string\>\|false\.#'
