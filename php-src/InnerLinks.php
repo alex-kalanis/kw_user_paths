@@ -160,8 +160,8 @@ class InnerLinks
 
     /**
      * @param string $lang
-     * @return string[]
      * @throws PathsException
+     * @return string[]
      */
     protected function addLang(string $lang): array
     {
