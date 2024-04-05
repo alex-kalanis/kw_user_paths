@@ -200,6 +200,7 @@ class ActionsTest extends CommonTestClass
     /**
      * @param string|null $path
      * @throws FilesException
+     * @throws PathsException
      * @return Actions
      */
     protected function getActionsWithShortPaths(?string $path): Actions

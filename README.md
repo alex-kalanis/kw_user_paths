@@ -1,9 +1,9 @@
 # kw_user_paths
 
-[![Build Status](https://app.travis-ci.com/alex-kalanis/kw_user_paths.svg?branch=master)](https://app.travis-ci.com/github/alex-kalanis/kw_user_paths)
+![Build Status](https://github.com/alex-kalanis/kw_user_paths/actions/workflows/code_checks.yml/badge.svg)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/alex-kalanis/kw_user_paths/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/alex-kalanis/kw_user_paths/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/alex-kalanis/kw_user_paths/v/stable.svg?v=1)](https://packagist.org/packages/alex-kalanis/kw_user_paths)
-[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.3-8892BF.svg)](https://php.net/)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.4-8892BF.svg)](https://php.net/)
 [![Downloads](https://img.shields.io/packagist/dt/alex-kalanis/kw_user_paths.svg?v1)](https://packagist.org/packages/alex-kalanis/kw_user_paths)
 [![License](https://poser.pugx.org/alex-kalanis/kw_user_paths/license.svg?v=1)](https://packagist.org/packages/alex-kalanis/kw_user_paths)
 [![Code Coverage](https://scrutinizer-ci.com/g/alex-kalanis/kw_user_paths/badges/coverage.png?b=master&v=1)](https://scrutinizer-ci.com/g/alex-kalanis/kw_user_paths/?branch=master)
@@ -12,12 +12,8 @@ Define user paths library inside the KWCMS. Parse from config, update against st
 
 ## PHP Installation
 
-```
-{
-    "require": {
-        "alex-kalanis/kw_user_paths": ">=1.0"
-    }
-}
+```bash
+composer.phar require alex-kalanis/kw_user_paths
 ```
 
 (Refer to [Composer Documentation](https://github.com/composer/composer/blob/master/doc/00-intro.md#introduction) if you are not
